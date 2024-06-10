@@ -1,9 +1,9 @@
 # Đồ án Network Tamper
 ## Các thành viên
-22521186 - Phạm Minh Quân
-22521215 - Nguyễn Văn Quốc
-22521289 - Vũ Bá Tài
-22521292 - Nguyễn Đinh Minh Tâm
+1. 22521186 - Phạm Minh Quân
+2. 22521215 - Nguyễn Văn Quốc
+3. 22521289 - Vũ Bá Tài
+4. 22521292 - Nguyễn Đinh Minh Tâm
 ## Các tính năng
 ### Bắt gói tin
 
