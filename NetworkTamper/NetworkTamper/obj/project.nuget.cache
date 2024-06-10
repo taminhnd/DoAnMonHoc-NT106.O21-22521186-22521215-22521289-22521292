@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "J1JAxbSA7D1FUl/g9YeNkrHKGaP/kVEUmCNh/Z1x+lXMLVFQ7Bdeo+wKcEAspEneQbqTG3qoA4qMD0nNo9dZHA==",
+  "success": true,
+  "projectFilePath": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\NetworkTamper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\packetdotnet\\1.4.7\\packetdotnet.1.4.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\sharppcap\\6.3.0\\sharppcap.6.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
