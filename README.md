@@ -26,8 +26,8 @@
     - ip addr = <địa chỉ IP> <br>
     - ip src = <địa chỉ IP nguồn> <br>
     - ip des = <địa chỉ IP đích> <br>
-    - ip port = <cổng> <br>
-    - ip psrc = <cổng nguồn> <br>
-    - ip pdes = <cổng đích> <br>
+    - port = <cổng> <br>
+    - psrc = <cổng nguồn> <br>
+    - pdes = <cổng đích> <br>
 ### Link video demo: 
 https://drive.google.com/file/d/1fPxXMPS1k7ajF791gONUQXLI2bglCxnA/view?usp=sharing
