@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\networktamper\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|solutionrelative:networktamper\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|c:\\ltmcb\\doanmonhoc-nt106.o21-22521186-22521215-22521289-22521292\\networktamper\\networktamper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|solutionrelative:networktamper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|c:\\ltmcb\\doanmonhoc-nt106.o21-22521186-22521215-22521289-22521292\\networktamper\\networktamper\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|solutionrelative:networktamper\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|c:\\ltmcb\\doanmonhoc-nt106.o21-22521186-22521215-22521289-22521292\\networktamper\\networktamper\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\networktamper\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EA2DD75-C24B-461D-A0F9-184CA2E1807F}|NetworkTamper\\NetworkTamper.csproj|solutionrelative:networktamper\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.Designer.cs",
-              "RelativeDocumentMoniker": "NetworkTamper\\Main.Designer.cs",
-              "ToolTip": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.Designer.cs",
-              "RelativeToolTip": "NetworkTamper\\Main.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T12:06:58.254Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -63,20 +50,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "NetworkTamper\\Main.Designer.cs",
+              "ToolTip": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.Designer.cs",
+              "RelativeToolTip": "NetworkTamper\\Main.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:06:58.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.cs",
               "RelativeDocumentMoniker": "NetworkTamper\\Main.cs",
               "ToolTip": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Main.cs",
               "RelativeToolTip": "NetworkTamper\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAALoDAAAAAAAAAAAIwNEDAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T12:06:00.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\LTMCB\\DoAnMonHoc-NT106.O21-22521186-22521215-22521289-22521292\\NetworkTamper\\NetworkTamper\\Program.cs",
               "RelativeDocumentMoniker": "NetworkTamper\\Program.cs",

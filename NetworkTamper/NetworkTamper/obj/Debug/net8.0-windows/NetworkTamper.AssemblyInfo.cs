@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetworkTamper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e826a47e63a906e418567a6c85986fa7f97a0aeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetworkTamper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetworkTamper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

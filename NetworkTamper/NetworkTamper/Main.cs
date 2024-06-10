@@ -490,49 +490,6 @@ namespace NetworkTamper
             }
         }
 
-
-        private void DisplaySearchResults(List<Packet> searchResults)
-        {
-            listViewPackets.Items.Clear();
-            foreach (var packet in searchResults)
-            {
-                if (packet is EthernetPacket ethernetPacket)
-                {
-                    if (ethernetPacket.PayloadPacket is IPPacket ipPacket)
-                    {
-                        if (ipPacket.PayloadPacket is TcpPacket tcpPacket)
-                        {
-                            var item = new ListViewItem(new[]
-                            {
-                        listViewPackets.Items.Count.ToString(),
-                        ipPacket.SourceAddress.ToString(),
-                        ipPacket.DestinationAddress.ToString(),
-                        tcpPacket.SourcePort.ToString(),
-                        tcpPacket.DestinationPort.ToString(),
-                        ethernetPacket.SourceHardwareAddress.ToString(),
-                        ethernetPacket.DestinationHardwareAddress.ToString()
-                    });
-                            listViewPackets.Items.Add(item);
-                        }
-                        else if (ipPacket.PayloadPacket is UdpPacket udpPacket)
-                        {
-                            var item = new ListViewItem(new[]
-                            {
-                        listViewPackets.Items.Count.ToString(),
-                        ipPacket.SourceAddress.ToString(),
-                        ipPacket.DestinationAddress.ToString(),
-                        udpPacket.SourcePort.ToString(),
-                        udpPacket.DestinationPort.ToString(),
-                        ethernetPacket.SourceHardwareAddress.ToString(),
-                        ethernetPacket.DestinationHardwareAddress.ToString()
-                    });
-                            listViewPackets.Items.Add(item);
-                        }
-                    }
-                }
-            }
-            listViewPackets.EnsureVisible(listViewPackets.Items.Count - 1);
-        }
         private bool Filter(Packet packet)
         {
             if (filter == 6) return true;
@@ -672,7 +629,7 @@ namespace NetworkTamper
             //opt == 5 : ip port destination
             //opt == 6 : show all
             int opt = -1;
-            int state = 0;
+
             fil = txtFilter.Text;
             if (fil.StartsWith("ip addr"))
             {
@@ -722,11 +679,6 @@ namespace NetworkTamper
 
             try
             {
-                if (isCapturing)
-                {
-                    /*buttonStopCapture.PerformClick();*/
-                    state = 1;
-                }
                 if (opt == 6)
                 {
                     foreach (Packet packet in packetList)
@@ -1022,11 +974,9 @@ namespace NetworkTamper
                     }
                     i++;
                 }
-                /*if (state == 1) buttonStartCapture.PerformClick();*/
             }
             catch (Exception ex)
             {
-                /*MessageBox.Show(ex.Message +"\n" + ex.TargetSite, "txtfilter");*/
                 return;
             }
         }
