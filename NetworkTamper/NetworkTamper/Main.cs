@@ -646,17 +646,17 @@ namespace NetworkTamper
                 opt = 2;
                 filter = 2;
             }
-            if (fil.StartsWith("ip port"))
+            if (fil.StartsWith("port"))
             {
                 opt = 3;
                 filter = 3;
             }
-            if (fil.StartsWith("ip psrc"))
+            if (fil.StartsWith("psrc"))
             {
                 opt = 4;
                 filter = 4;
             }
-            if (fil.StartsWith("ip pdes"))
+            if (fil.StartsWith("pdes"))
             {
                 opt = 5;
                 filter = 5;

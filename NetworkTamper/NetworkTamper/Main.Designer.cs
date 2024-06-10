@@ -107,7 +107,7 @@
             label8.AutoSize = true;
             label8.Location = new Point(704, 106);
             label8.Name = "label8";
-            label8.Size = new Size(285, 32);
+            label8.Size = new Size(230, 28);
             label8.TabIndex = 14;
             label8.Text = "Suscessfully packets sent:";
             // 
@@ -116,7 +116,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(704, 59);
             label6.Name = "label6";
-            label6.Size = new Size(141, 32);
+            label6.Size = new Size(117, 28);
             label6.TabIndex = 17;
             label6.Text = "Source Port:";
             // 
@@ -125,7 +125,7 @@
             Dest_IP_textBox.BackColor = SystemColors.Menu;
             Dest_IP_textBox.Location = new Point(1304, 9);
             Dest_IP_textBox.Name = "Dest_IP_textBox";
-            Dest_IP_textBox.Size = new Size(261, 39);
+            Dest_IP_textBox.Size = new Size(261, 34);
             Dest_IP_textBox.TabIndex = 11;
             // 
             // Dest_Port_textBox
@@ -133,7 +133,7 @@
             Dest_Port_textBox.BackColor = SystemColors.Menu;
             Dest_Port_textBox.Location = new Point(1304, 54);
             Dest_Port_textBox.Name = "Dest_Port_textBox";
-            Dest_Port_textBox.Size = new Size(261, 39);
+            Dest_Port_textBox.Size = new Size(261, 34);
             Dest_Port_textBox.TabIndex = 13;
             // 
             // buttonStopCapture
@@ -152,7 +152,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(704, 12);
             label3.Name = "label3";
-            label3.Size = new Size(118, 32);
+            label3.Size = new Size(97, 28);
             label3.TabIndex = 14;
             label3.Text = "Source IP:";
             // 
@@ -161,7 +161,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(1113, 12);
             label5.Name = "label5";
-            label5.Size = new Size(167, 32);
+            label5.Size = new Size(137, 28);
             label5.TabIndex = 16;
             label5.Text = "Destination IP:";
             // 
@@ -182,7 +182,7 @@
             comboBoxDeviceIB.FormattingEnabled = true;
             comboBoxDeviceIB.Location = new Point(125, 51);
             comboBoxDeviceIB.Name = "comboBoxDeviceIB";
-            comboBoxDeviceIB.Size = new Size(573, 40);
+            comboBoxDeviceIB.Size = new Size(573, 36);
             comboBoxDeviceIB.TabIndex = 1;
             // 
             // Sour_Port_textBox
@@ -190,7 +190,7 @@
             Sour_Port_textBox.BackColor = SystemColors.Menu;
             Sour_Port_textBox.Location = new Point(846, 54);
             Sour_Port_textBox.Name = "Sour_Port_textBox";
-            Sour_Port_textBox.Size = new Size(261, 39);
+            Sour_Port_textBox.Size = new Size(261, 34);
             Sour_Port_textBox.TabIndex = 12;
             // 
             // comboBoxDeviceIA
@@ -199,7 +199,7 @@
             comboBoxDeviceIA.FormattingEnabled = true;
             comboBoxDeviceIA.Location = new Point(125, 4);
             comboBoxDeviceIA.Name = "comboBoxDeviceIA";
-            comboBoxDeviceIA.Size = new Size(573, 40);
+            comboBoxDeviceIA.Size = new Size(573, 36);
             comboBoxDeviceIA.TabIndex = 0;
             // 
             // sentpacket_counts_label
@@ -207,7 +207,7 @@
             sentpacket_counts_label.AutoSize = true;
             sentpacket_counts_label.Location = new Point(995, 106);
             sentpacket_counts_label.Name = "sentpacket_counts_label";
-            sentpacket_counts_label.Size = new Size(27, 32);
+            sentpacket_counts_label.Size = new Size(23, 28);
             sentpacket_counts_label.TabIndex = 15;
             sentpacket_counts_label.Text = "0";
             // 
@@ -216,7 +216,7 @@
             Sour_IP_textBox.BackColor = SystemColors.Menu;
             Sour_IP_textBox.Location = new Point(846, 9);
             Sour_IP_textBox.Name = "Sour_IP_textBox";
-            Sour_IP_textBox.Size = new Size(261, 39);
+            Sour_IP_textBox.Size = new Size(261, 34);
             Sour_IP_textBox.TabIndex = 10;
             // 
             // label1
@@ -224,7 +224,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(6, 7);
             label1.Name = "label1";
-            label1.Size = new Size(119, 32);
+            label1.Size = new Size(97, 28);
             label1.TabIndex = 7;
             label1.Text = "Device IA:";
             // 
@@ -233,7 +233,7 @@
             label7.AutoSize = true;
             label7.Location = new Point(1113, 57);
             label7.Name = "label7";
-            label7.Size = new Size(190, 32);
+            label7.Size = new Size(157, 28);
             label7.TabIndex = 18;
             label7.Text = "Destination Port:";
             // 
@@ -242,7 +242,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(7, 54);
             label2.Name = "label2";
-            label2.Size = new Size(118, 32);
+            label2.Size = new Size(95, 28);
             label2.TabIndex = 8;
             label2.Text = "Device IB:";
             // 
@@ -275,7 +275,7 @@
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(341, 42);
             btnSave.TabIndex = 19;
-            btnSave.Text = "Save Packets";
+            btnSave.Text = "Save Packet";
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
             // 
@@ -316,7 +316,7 @@
             // 
             txtFilter.Location = new Point(800, 199);
             txtFilter.Name = "txtFilter";
-            txtFilter.Size = new Size(764, 39);
+            txtFilter.Size = new Size(764, 34);
             txtFilter.TabIndex = 24;
             txtFilter.KeyPress += txtFilter_KeyEnterPress;
             // 
@@ -325,7 +325,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(704, 202);
             label4.Name = "label4";
-            label4.Size = new Size(90, 32);
+            label4.Size = new Size(74, 28);
             label4.TabIndex = 23;
             label4.Text = "Search:";
             // 
