@@ -1,12 +1,11 @@
 # Đồ án Network Tamper
 ## Các thành viên
-2252
-2252
-2252
-2252
+22521186 - Phạm Minh Quân
+22521215 - Nguyễn Văn Quốc
+22521289 - Vũ Bá Tài
+22521292 - Nguyễn Đinh Minh Tâm
 ## Các tính năng
 ### Bắt gói tin
-#### a
 
 Người dùng có thể chọn giao diện mạng để bắt gói tin.
 Các gói tin được hiển thị trong ListView với các thông tin như địa chỉ IP nguồn, địa chỉ IP đích, cổng nguồn, cổng đích, địa chỉ MAC nguồn và địa chỉ MAC đích.
